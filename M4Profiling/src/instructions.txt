@@ -12,3 +12,32 @@ then deletes each one from the LinkedList
 
 Call a new method which adds 2,000,000 random integers into a Hashtable, then 
 deletes each one from the Hashtable
+
+
+Pseudocode: 
+Main {
+    Call randArrayList
+    Call randLinkedList
+    Call randHashtable
+}
+
+randArrayList {
+    for loop (2M iterations)
+         add random integer to ArrayList
+    Output ArrayList size for confirmation
+    Clear ArrayList
+}
+
+randLinkedList {
+    for loop (2M iterations)
+         add random integer to LinkedList
+    Output LinkedList size for confirmation
+    Clear LinkedList
+}
+
+randHashtable {
+    for loop (2M iterations)
+         add random integer to Hashtable
+    Output Hashtable size for confirmation
+    Clear Hashtable
+}
